@@ -1,0 +1,18 @@
+table:
+  name: users
+  schema: public
+array_relationships:
+  - name: meetings
+    using:
+      foreign_key_constraint_on:
+        column: user_id
+        table:
+          name: meetings
+          schema: public
+  - name: participants
+    using:
+      foreign_key_constraint_on:
+        column: user_id
+        table:
+          name: participants
+          schema: public
