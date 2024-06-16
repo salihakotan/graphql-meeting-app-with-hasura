@@ -11,6 +11,7 @@ import nodemailer from "nodemailer"
 
 const router = express.Router()
 
+
 const smtpConfig = {
     host:"smtp.gmail.com",
     port:465,
