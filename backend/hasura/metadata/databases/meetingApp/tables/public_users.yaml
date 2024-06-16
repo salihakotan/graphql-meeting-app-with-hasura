@@ -16,6 +16,12 @@ array_relationships:
         table:
           name: participants
           schema: public
+insert_permissions:
+  - role: user
+    permission:
+      check: {}
+      columns: []
+    comment: ""
 select_permissions:
   - role: anonymous
     permission:
