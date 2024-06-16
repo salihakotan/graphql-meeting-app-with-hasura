@@ -27,6 +27,7 @@ temp-console-hasura/
 tags
 
 .env
+env
 
 # tool-agnostic personal ignore files
 .direnv
