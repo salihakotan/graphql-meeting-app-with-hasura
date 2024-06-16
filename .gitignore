@@ -26,6 +26,8 @@ temp-console-hasura/
 .idea
 tags
 
+.env
+
 # tool-agnostic personal ignore files
 .direnv
 .envrc.local
