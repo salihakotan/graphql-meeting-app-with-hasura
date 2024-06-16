@@ -26,6 +26,7 @@ temp-console-hasura/
 .idea
 tags
 
+backend/env
 .env
 env
 
